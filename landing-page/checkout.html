@@ -89,12 +89,12 @@
 							  </div>
 							  <h7>Payment</h7>
 							  <div class="form-check">
-								  <input type="radio" class="form-check-input">
-								  <label class="form-check-label">Debit Card</label>
+								  <input type="radio" class="form-check-input" id="debitcard" name="paymentMethod ">
+								  <label class="form-check-label"for="debitcard">Debit Card</label>
 							  </div>
 							  <div class="form-check">
-								  <input type="radio" class="form-check-input">
-								  <label class="form-check-label">Credit Card</label>
+								  <input type="radio" class="form-check-input" id="creditcard" name="paymentMethod">
+								  <label class="form-check-label"for="creditcard">Credit Card</label>
 							  </div>
 							  <div class="col-6">
 								  <label class="form-label" for="cardname">Name On Card</label>
@@ -141,7 +141,7 @@
 								<div id="cartItem"> Your cart is empty</div>
 								<div class="root">
 									<h3>Total</h3>
-									<h2 id="total">$0.00</h2> 
+									<h2 id="total">R0.00</h2> 
 								</div>
 							</div>
 						   </div>
@@ -149,23 +149,7 @@
 
 						   
 				  
-								 <div class="cart-item">
-									<div class="row g-2">
-				  
-									   <div class="col-6">
-										  <h5>Subtotal: </h5>
-										  <h5>Tax:</h5>
-										  <h5>Total:</h5>
-									   </div>
-				  
-									   <div class="col-6 status">
-										  <h5>$<span id="sub-total">0</span></h5>
-										  <h5>$<span id="tax-amount">0</span></h5>
-										  <h5>$<span id="total-price">0</span></h5>
-									   </div>
-									   
-									</div>
-								 </div>
+								 
 								 <div class="col-md-12 pt-4 pb-4">
 									  <button type="button" onclick="alert('YOUR ORDER WAS SUCCESSFULLY CONFIRMED!')">Confirm Order</button>
 								 </div>
